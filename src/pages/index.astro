@@ -1,0 +1,30 @@
+---
+const title = "Cinema & Sound";
+const description =
+  "Авторские подборки фильмов, сериалов и музыки на разные темы и настроения.";
+---
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+
+  <body>
+    <main>
+      <h1>{title}</h1>
+
+      <p>{description}</p>
+
+      <nav>
+        <a href="/films">Фильмы</a>
+
+        <a href="/series">Сериалы</a>
+		
+        <a href="/music">Музыка</a>
+      </nav>
+    </main>
+  </body>
+</html>
